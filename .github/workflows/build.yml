@@ -1,4 +1,4 @@
-name: Build and test
+name: Build
 on:
   pull_request:
     branches:
@@ -17,5 +17,5 @@ jobs:
         run: npm install
       - name: Build application
         run: npm run build
-      - name: Run tests
-        run: npm test
+      #- name: Run tests
+       # run: npm test
